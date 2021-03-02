@@ -88,8 +88,8 @@ class App extends React.Component {
     return (
       <div>
         <div className='Box Box--spacious f4'>
-          <div className='Box-header d-flex flex-justify-center '>
-            <h3>GradeBook</h3>
+          <div className='Box-header'>
+            <h3 className='Box-title d-flex flex-justify-center'>GradeBook</h3>
           </div>
         </div>
         <nav className='UnderlineNav d-flex flex-justify-center'>
